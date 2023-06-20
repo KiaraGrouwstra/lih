@@ -1,0 +1,5 @@
+node_modules
+*.odp
+*.pptx
+*.pdf
+*.html

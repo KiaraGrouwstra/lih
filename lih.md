@@ -4,6 +4,21 @@ author: kiara
 title: CP lees-club Lih
 theme: uncover
 style: |
+  @font-face {
+    font-family: 'Twitter Color Emoji';
+    src: local('Twitter Color Emoji');
+    unicode-range: U+00A9, U+00AE, U+203C, U+2049, U+20E3, U+2122, U+2139, U+2194-21AA, U+231A-23FA, U+24C2, U+25AA-27EF, U+2934, U+2935, U+2B00-2BFF, U+3030, U+303D, U+3297, U+3299, U+1F000-1F9E0;
+  }
+  @font-face {
+    font-family: 'Blobmoji';
+    src: local('Blobmoji');
+    unicode-range: U+1F600-1F6FF;
+  }
+  @font-face {
+    font-family: 'Noto Color Emoji';
+    src: local('Noto Color Emoji');
+    unicode-range: U+1F476-1F64B, U+1F937, U+1F9DD, U+1F939-1F9D8, U+1F47D-1F64A, U+1F435-1F9A0;
+  }
   section {
     background-color: red;
     background-image: linear-gradient(to right, rgba(255, 0, 0, 0.9) 0 100%), url("imgs/lenin.svg");
@@ -273,4 +288,5 @@ volgt uit stellingen van Sociaal Democratie:
 
 ---
 ### politieke vrijheden vandaag
+<!-- source: https://www.pngwing.com/en/free-png-zaoue -->
 ![](imgs/lenin-facepalm.png)
